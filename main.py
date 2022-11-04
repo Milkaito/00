@@ -54,7 +54,8 @@ email = Entry(Forms, textvariable=email, width=50)
 email.grid(row=2, column=1)
 
 
-
+btn_cadastrar = Button(Buttons, width=10, text="Cadastrar", command=cadastrar)
+btn_cadastrar.pack(side=LEFT)
 
 
 
