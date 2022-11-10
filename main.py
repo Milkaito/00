@@ -4,8 +4,8 @@ import sqlite3
 import tkinter.ttk as ttk
 import tkinter.messagebox as tkMessageBox
 
-cor1 = "DeepSkyBlue3"
-cor2 = "DeepSkyBlue4"
+cor1 = "SkyBlue"
+cor2 = "DeepSkyBlue3"
 cor3 = "PaleGreen3"
 
 principal = Tk()
@@ -58,6 +58,7 @@ email.grid(row=2, column=1)
 senha = Entry(Forms, textvariable=email, width=25)
 senha.grid(row=3, column=1)
 
+#botões
 btn_cadastrar = Button(Buttons, width=15, text="Cadastrar", command=cadastrar)
 btn_cadastrar.pack(side=LEFT)
 
